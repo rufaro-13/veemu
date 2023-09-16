@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../images/CHC_png.png'
+import logo from '../images/veemu_png.png'
 import {Link} from 'react-router-dom'
 import excellent from '../images/excellence.png'
 import equal from '../images/no-equal-to.png'
@@ -19,12 +19,13 @@ function Footer() {
     <div className='lg:flex grid  lg:grid-cols-3 lg:gap-4 m-auto md:grid-cols-2 md:gap-x-2 grid-col-1 pt-8 px-2 md:px-5 '>
 
           <div className="lg:px-8 px-4 col-span-1 lg:w-full md:w-1/2 sm:items-center sm:justify-center">
-            <center><img src={excellent} alt='excellence'  class=" sm:items-center sm:justify-center mx-1   my-6"/></center>
+            <center><img src={excellent} alt='excellence'  class=" sm:items-center sm:justify-center mx-1   
+            my-6"/>
             <h5 className="md:text-2xl text-lg font-bold tracking-tight text-gray-900 dark:text-white pt-2">
                 <p>
                 We Are Reliable
                 </p>
-            </h5>
+            </h5></center>
             <p className="font-normal text-sm md:text-lg text-gray-700 dark:text-gray-400 pt-4">
                 <p class='text-left'>
                 
@@ -82,7 +83,7 @@ function Footer() {
         <div class="sm:flex sm:items-center sm:justify-between">
             <a href="https://continuedhealthcare.com/" class="flex items-center mb-4 sm:mb-0">
                 <img src={logo} class="h-8 md:h-16 mr-3" alt="VEEMU Logo" />
-                <span class="self-center text-yellowtheme md:text-2xl text-1xl font-semibold whitespace-nowrap dark:text-white">Continued HealthCare</span>
+                <span class="self-center text-yellowtheme md:text-2xl text-1xl font-semibold whitespace-nowrap dark:text-white">VEEMU HealthCare</span>
             </a>
             <ul class="flex flex-wrap text-lg text-sm items-center mb-6 text-base font-medium text-white sm:mb-0 dark:text-gray-400">
                 <Link to="/about" className='text-yellowtheme md:px-8 px-4'>

@@ -11,7 +11,7 @@ function Home() {
   return (
     <div>
         
-        <section class=" bg-cover bg-center bg-no-repeat bg-hero_pattern  bg-blend-multiply">
+        <section class=" bg-cover bg-center bg-no-repeat bg-hero_pattern bg-gray-400 bg-blend-multiply">
             <div class="px-4 mx-auto max-w-screen-xl text-center bg- py-24 lg:py-34">
             <h1 class="mb-4 text-4xl font-extrabold font-cursive tracking-tight leading-none text-yellowtheme md:text-5xl lg:text-6xl">VEEMU Limited</h1>
                 <p class="mb-8 text-2xl font-bold text-gray-300 lg:text-cyan-700  lg:text-4xl sm:px-16 lg:px-48">
@@ -20,7 +20,7 @@ function Home() {
                 </p>
                 <div class="flex flex-col space-y-4 rounded-lg border-solid border-navcolour sm:flex-row sm:justify-center pt-5 sm:space-y-0 sm:space-x-4">
                     
-                   <p className='text-white rounded-lg border-4 py-3 px-3 border-navcolour text-2xl lg:text-3xl md:w-1/2'>
+                   <p className='text-white  py-3 px-3 rounded-lg  border-4 border-navcolour text-2xl lg:text-3xl md:w-1/2'>
                         Our services are of quality and very affordable. We prioritize the comfort and wellbeing of our clients.
                    </p>
 
@@ -69,7 +69,7 @@ function Home() {
                     </div>
                     
 
-                    <div className=" col-span-1 rounded-lg bg-bluetheme lg:w-1/2 md:w-1/2  sm:items-center sm:justify-center">
+                    <div className=" col-span-1 rounded-lg bg-bluetheme lg:w-1/2 md:w-1/2 mt-4 sm:items-center sm:justify-center">
                     
                         <img class="rounded-lg" src={paliat} alt="end of life care of a man with terminal illness" />
                         <h5 className="md:text-2xl text-lg font-bold tracking-tight text-blue-800 dark:text-white pt-2">
@@ -92,7 +92,7 @@ function Home() {
                         
                     </div>
                 
-                    <div className=" col-span-1 lg:w-1/2 rounded-lg bg-bluetheme md:w-1/3  sm:items-center sm:justify-center">
+                    <div className=" col-span-1 lg:w-1/2 rounded-lg bg-bluetheme md:w-1/3 mt-4 sm:items-center sm:justify-center">
                         <img class="rounded-t-lg" src={respite} alt="young-doctor-helping-one-guy-stand-up" />
                         <h5 className="md:text-2xl text-lg font-bold tracking-tight text-blue-800 dark:text-white pt-2">
                             <p>
@@ -114,7 +114,7 @@ function Home() {
                         </p>
                     </div>
 
-                    <div className=" col-span-1 rounded-lg bg-bluetheme lg:w-1/2 md:w-1/3  sm:items-center sm:justify-center">
+                    <div className=" col-span-1 rounded-lg bg-bluetheme lg:w-1/2 md:w-1/3 mt-4 sm:items-center sm:justify-center">
                         <img class="rounded-t-lg" src={supported} alt="male-social-worker-taking-care-old-woman" />
                         <h5 className="md:text-2xl text-lg font-bold tracking-tight text-blue-800 dark:text-white pt-2">
                             <p >

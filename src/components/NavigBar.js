@@ -2,7 +2,7 @@
 
 import {  Navbar } from 'flowbite-react';
 import { Link } from "react-router-dom";
-import logo from '../images/CHC_png.png'
+import logo from '../images/veemu_png.png'
 export default function NavbarWithCTAButton() {
   return (
     <Navbar
@@ -17,11 +17,11 @@ export default function NavbarWithCTAButton() {
         >
         <img
           alt="Flowbite React Logo"
-          className="mr-3 h-12 sm:h-20"
+          className="mr-3 h-12 sm:h-24"
           src={logo}
         /></Link>
         <span className="self-center whitespace-nowrap text-yellowtheme text-xl font-bold dark:text-white">
-          VEEMU
+          VEEMU HealthCare
         </span>
       </Navbar.Brand>
       <div className="flex md:order-2 text-white">
