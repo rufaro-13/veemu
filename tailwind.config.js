@@ -10,6 +10,7 @@ module.exports = {
         'bluetheme':'#87c0e6',
         'red':'#ff0000',
         'greentheme':'#32a852',
+        'cards':'#89cff0',
         'yellowtheme':'#FFD700'
       },
 

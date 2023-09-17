@@ -11,13 +11,11 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout/>}>
-        <Route index element = {<Home/>}></Route>
-        <Route  path='/about' element= {<About/>}></Route>
-        <Route  path='/contact' element= {<Contact/>}></Route>
-        <Route  path='/services' element= {<Services/>}></Route>
-        
-       
+        <Route forceRefresh={true} path="/" element={<Layout/>}>
+        <Route forceRefresh={true} index element = {<Home/>}></Route>
+        <Route forceRefresh={true} path='/about' element= {<About/>}></Route>
+        <Route forceRefresh={true} path='/contact' element= {<Contact/>}></Route>
+        <Route forceRefresh={true} path='/services' element= {<Services/>}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

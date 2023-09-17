@@ -13,7 +13,7 @@ function Home() {
         
         <section class=" bg-cover bg-center bg-no-repeat bg-hero_pattern bg-gray-400 bg-blend-multiply">
             <div class="px-4 mx-auto max-w-screen-xl text-center bg- py-24 lg:py-34">
-            <h1 class="mb-4 text-4xl font-extrabold font-cursive tracking-tight leading-none text-yellowtheme md:text-5xl lg:text-6xl">VEEMU Limited</h1>
+            <h1 class="mb-4 text-4xl font-extrabold  tracking-tight leading-none text-yellowtheme md:text-5xl lg:text-6xl">VEEMU Limited</h1>
                 <p class="mb-8 text-2xl font-bold text-gray-300 lg:text-cyan-700  lg:text-4xl sm:px-16 lg:px-48">
                 We offer you quality care and compassionate care.
                     
@@ -45,7 +45,7 @@ function Home() {
 
                 <div class=" lg:flex grid  lg:grid-cols-2 lg:gap-x-3 m-auto md:grid-cols-2 md:gap-x-2 grid-col-1 px-2 item-stretch ">
 
-                    <div className=" col-span-1 rounded-lg bg-bluetheme  md:w-1/2  sm:items-center sm:justify-center">
+                    <div className=" col-span-1 rounded-lg bg-blue-200  md:w-1/2 mt-4 sm:items-center sm:justify-center">
                         <img class="rounded-lg" src={domic} alt="old man sitting on a wheelchair" />
                         <h5 className="md:text-2xl text-lg font-bold tracking-tight text-blue-800 dark:text-white pt-2">
                             <p>
@@ -61,7 +61,7 @@ function Home() {
                             </p>
 
                             <Link to="services" 
-                                class="inline-flex justify-center hover:text-gray-900 items-center mt-2 md:py-3 md:mt-2 py-2 px-5 text-white font-medium text-sm md:text-lg text-center
+                                class="inline-flex justify-center hover:text-gray-900 items-center mt-2 md:py-3 md:mt-3 py-2 px-5 text-white font-medium text-sm md:text-lg text-center
                                 text-blue rounded-lg border border-green hover:bg-green-300 focus:ring-4 focus:ring-green-400  bg-blue-800 ">
                                     Learn more
                                 </Link>
@@ -69,7 +69,7 @@ function Home() {
                     </div>
                     
 
-                    <div className=" col-span-1 rounded-lg bg-bluetheme lg:w-1/2 md:w-1/2 mt-4 sm:items-center sm:justify-center">
+                    <div className=" col-span-1 rounded-lg bg-blue-200 lg:w-1/2 md:w-1/2 mt-4 sm:items-center sm:justify-center">
                     
                         <img class="rounded-lg" src={paliat} alt="end of life care of a man with terminal illness" />
                         <h5 className="md:text-2xl text-lg font-bold tracking-tight text-blue-800 dark:text-white pt-2">
@@ -92,7 +92,7 @@ function Home() {
                         
                     </div>
                 
-                    <div className=" col-span-1 lg:w-1/2 rounded-lg bg-bluetheme md:w-1/3 mt-4 sm:items-center sm:justify-center">
+                    <div className=" col-span-1 lg:w-1/2 rounded-lg bg-blue-200 md:w-1/3 mt-4 sm:items-center sm:justify-center">
                         <img class="rounded-t-lg" src={respite} alt="young-doctor-helping-one-guy-stand-up" />
                         <h5 className="md:text-2xl text-lg font-bold tracking-tight text-blue-800 dark:text-white pt-2">
                             <p>
@@ -114,7 +114,7 @@ function Home() {
                         </p>
                     </div>
 
-                    <div className=" col-span-1 rounded-lg bg-bluetheme lg:w-1/2 md:w-1/3 mt-4 sm:items-center sm:justify-center">
+                    <div className=" col-span-1 rounded-lg bg-blue-200 lg:w-1/2 md:w-1/3 mt-4 sm:items-center sm:justify-center">
                         <img class="rounded-t-lg" src={supported} alt="male-social-worker-taking-care-old-woman" />
                         <h5 className="md:text-2xl text-lg font-bold tracking-tight text-blue-800 dark:text-white pt-2">
                             <p >
