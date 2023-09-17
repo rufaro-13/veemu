@@ -9,7 +9,7 @@ import Services from './pages/Services';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/'>
       <Routes>
         <Route forceRefresh={true} path="/" element={<Layout/>}>
         <Route forceRefresh={true} index element = {<Home/>}></Route>

@@ -59,7 +59,7 @@ function Footer() {
             <center><img src={equal} alt='excellence'  class=" sm:items-center sm:justify-center mx-1   my-6"/>
             <h5 className="md:text-2xl text-lg font-bold tracking-tight text-gray-900 dark:text-white pt-2">
                 <p>
-                Unequaled Knowledge
+                We are Professionals
                 </p>
             </h5></center>
             <p className="font-normal text-sm md:text-lg text-gray-700 dark:text-gray-400 pt-4">
