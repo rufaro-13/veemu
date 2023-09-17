@@ -19,10 +19,10 @@ function Services() {
                             <p class='font-normal font-semibold text-sm md:text-lg px-2'>
                            We offer a range of services :<br/><br/>
                             <div className='ml-6'><ul class="list-disc ">
-                             <li><a href='#domiciliary'>Domiciliary Care</a></li>
-                            <li><a href='#respite'>Respite Care</a> </li>
-                            <li><a href='#supported'>Supported </a>Living</li>
-                            <li><a href='#palliative'>Palliative Care</a></li>
+                             <li><a class='' href='#domiciliary'><u>Domiciliary Care</u></a></li>
+                            <li><a href='#respite'><u>Respite Care</u></a> </li>
+                            <li><a href='#supported'><u>Supported Living</u></a></li>
+                            <li><a href='#palliative'><u>Palliative Care</u></a></li>
                             
                                 
                             </ul></div>
