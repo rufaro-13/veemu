@@ -1,6 +1,8 @@
 import React from 'react'
-import goal from '../images/goal.gif'
-import heart from '../images/wired-flat-20-love-heart.gif'
+
+import {TbTargetArrow,TbStarFilled} from 'react-icons/tb'
+import {HiLightBulb} from 'react-icons/hi'
+import { IconContext } from "react-icons";
 
 function About() {
   return (
@@ -9,27 +11,33 @@ function About() {
             <div class=" px-4 mx-auto max-w-screen-xl t pt-4">
 
                 <div class="px-4 mx-auto max-w-screen-xl text-center pt-6  ">
-                    <h4 class="mb-4 text-1xl font-extrabold tracking-tight leading-none text-emerald-800 md:text-3xl lg:text-3xl">
-                       About US:
+                    <h4 class="mb-4 text-3xl font-extrabold tracking-tight leading-none text-yellowtheme md:text-3xl lg:text-5xl">
+                       About US
                     </h4>
+
+                    
                 </div>
 
-                <div class="md:flex pt-4 pb-4">
+                <div class="md:flex pt-4 pb-4 bg-navcolour">
 
-                    <div class="md:w-1/2  sm:82 rounded-lg bg-emerald-200  sm:items-center sm:justify-center   mx-2 ">
-                        <h5 class="mx-auto mb-4 text-1xl font-bold tracking-tight leading-none text-center text-black md:text-2xl lg:text-2xl pt-2">
+                    <div class="md:w-1/2  sm:82 rounded-lg   sm:items-center sm:justify-center   mx-2 ">
+                        <div class='flex ml-4'>
+                        <h5 class=" mb-4 text-2xl font-bold tracking-tight leading-none text-center text-fuchsia-600 md:text-3xl lg:text-4xl pt-2">
                            Our Mission <br/><br/>
                         </h5>
+                        <IconContext.Provider value={{ color: '#9E8604', size: '50px', padding:'1px ' }}>
+                            <div class="  sm:items-center sm:justify-center    mb-4">
+                              <TbTargetArrow class="sm:items-center sm:justify-center  "/>
+                            </div>
+                          </IconContext.Provider>
+                       </div>
 
-                        <p class="pl-4 font-normal text-sm md:text-lg">
-                        As Continued Health Care we take pride in seeing our clients maintain their life style. We aim : <br/><br/>
-                        <ul class="pl-4 list-disc">
-                            <li> to provide a high standard of care and support to every service user.</li>
-                            <li> to ensure the independence of our clients in a safe and comfortable environment </li>
-                            <li> to help individuals with a variety of disabilities and complex needs live an independent life 
-                              and make choices</li>
-                            
-                        </ul>
+                        <p class="pl-4 font-normal text-fuchsia-900 text-sm md:text-lg">
+                        
+                        To provide a high standard of care and support to all our service users maintaining their life style.
+                        Providing person centred care and to support to all service users with a range of care needs such as mental 
+                        health needs and physical diisabilities. Our team of healthcare professionals will be there to cater for your needs 24/7.
+
 
                         <br/><br/>
 
@@ -37,38 +45,114 @@ function About() {
 
                     </div>
 
-                    <div class="md:w-1/2   px-4">
-                    <img src={goal}class=" rounded-lg h-48 mr-3" alt=""/> 
-                    </div>  
-
-                   
-
-                </div>
-
-                <div class="md:flex pt-4 pb-4">
-
-                    <div class="md:w-1/2 item-center justify-center  px-4">
-                    <img src={heart}class=" rounded-lg h-48 mr-8" alt=""/> 
-                    </div> 
-
-                    <div class="md:w-1/2  sm:82 rounded-lg bg-emerald-200  sm:items-center sm:justify-center   mx-2 ">
-                        <h5 class="mx-auto mb-4 text-1xl font-bold tracking-tight leading-none text-center text-black md:text-2xl lg:text-2xl pt-2">
-                           Why choose us <br/><br/>
+                    <div class="md:w-1/2  sm:82 rounded-lg   sm:items-center sm:justify-center   mx-2 ">
+                        <div class='flex ml-4'>
+                        <h5 class=" mb-4 text-2xl font-bold tracking-tight leading-none text-center text-fuchsia-600 md:text-3xl lg:text-4xl pt-2">
+                           Our Vision <br/><br/>
                         </h5>
+                        <IconContext.Provider value={{ color: '#9E8604', size: '50px', padding:'1px ' }}>
+                            <div class="  sm:items-center sm:justify-center    mb-4">
+                              <HiLightBulb class="sm:items-center sm:justify-center  "/>
+                            </div>
+                          </IconContext.Provider>
+                       </div>
 
-                        <p class="pl-4 font-normal text-sm md:text-lg">
-                        Continued Health Care is the best because: <br/><br/>
-                        <ul class="pl-4 list-disc">
-                            <li> we provide the best services at affordable prices.</li>
-                            <li> we listen to your wishes and tailor make our services to suit your needs. </li>
-                            <li> we promote a healthy lifestyle</li>
-                            <li> we provide you with reassurance, comfort and companionship.</li>
-                        </ul>
+                        <p class="pl-4 font-normal text-fuchsia-900 text-sm md:text-lg">
+                        
+                        VEEMU will be a recognised leader in improving the quality of health care in the communities we serve .
+
 
                         <br/><br/>
 
                         </p>
 
+                    </div>
+
+                </div>
+
+                <div class="md:flex pt-4 pb-4">
+
+                     
+
+                    <div class="md:w-full  sm:82 rounded-lg  sm:items-center sm:justify-center   mx-2 ">
+                        <h5 class="mx-auto mb-4 text-2xl font-bold tracking-tight leading-none text-center text-yellowtheme md:text-3xl lg:text-5xl pt-2">
+                           Our Values <br/><br/>
+                        </h5>
+                        <div class="  grid  lg:grid-cols-2 lg:gap-x-3 m-auto md:grid-cols-2 md:gap-x-2 grid-col-1 px-2 item-stretch ">
+                       
+                            <div class='flex col-span-1'>
+                                <IconContext.Provider value={{ color: '#9E8604', size: '50px', padding:'1px ' }}>
+                                    <div class="  sm:items-center sm:justify-center    mb-4">
+                                    <TbStarFilled class="sm:items-center sm:justify-center  "/>
+                                    </div>
+                                </IconContext.Provider>
+                            
+
+                                <p class="pl-4 font-medium text-fuchsia-900 text-sm md:text-lg">
+                                
+                                <b>Independence -</b> We prioritize our service users' independence
+
+                                <br/><br/>
+
+                                </p>
+
+                            </div>
+
+                            <div class='flex col-span-1'>
+                                <IconContext.Provider value={{ color: '#9E8604', size: '50px', padding:'1px ' }}>
+                                    <div class="  sm:items-center sm:justify-center    mb-4">
+                                    <TbStarFilled class="sm:items-center sm:justify-center  "/>
+                                    </div>
+                                </IconContext.Provider>
+                            
+                                <p class="pl-4 font-medium text-fuchsia-900 text-sm md:text-lg">
+                                
+                                <b>Individuality -</b> Each person is supported and taken care of according to their care needs, following the support care plan.
+
+                                <br/><br/>
+
+                                </p>
+
+
+                            </div>
+
+                            <div class='flex col-span-1'>
+                                <IconContext.Provider value={{ color: '#9E8604', size: '50px', padding:'1px ' }}>
+                                    <div class="  sm:items-center sm:justify-center    mb-4">
+                                    <TbStarFilled class="sm:items-center sm:justify-center  "/>
+                                    </div>
+                                </IconContext.Provider>
+                            
+                                <p class="pl-4 font-medium text-fuchsia-900 text-sm md:text-lg">
+                                
+                                <b>Person Centred Care -</b> VEEMU is flexible enough to be guided by the service user. We can work with each individual's 
+                                care plan.
+
+                                <br/><br/>
+
+                                </p>
+
+                            </div>
+
+                            <div class='flex col-span-1'>
+                                <IconContext.Provider value={{ color: '#9E8604', size: '50px', padding:'1px ' }}>
+                                    <div class="  sm:items-center sm:justify-center    mb-4">
+                                    <TbStarFilled class="sm:items-center sm:justify-center  "/>
+                                    </div>
+                                </IconContext.Provider>
+                            
+                                <p class="pl-4  text-fuchsia-900 font-medium text-sm md:text-lg">
+                                
+                                <b>Choice -</b> At VEEMU HealthCare Limited we value everyone's hapiness and comfort. 
+                                Service users are free to choose the services they want and how they want them .
+
+                                <br/><br/>
+
+                                </p>
+
+                            </div>
+                        </div>
+                        
                     </div> 
 
                 </div>

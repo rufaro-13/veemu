@@ -20,7 +20,7 @@ export default function NavbarWithCTAButton() {
           className="mr-3 h-12 sm:h-24"
           src={logo}
         /></Link>
-        <span className="self-center whitespace-nowrap text-yellowtheme text-xl font-bold dark:text-white">
+        <span className="self-center whitespace-nowrap text-fuchsia-950 text-xl font-bold dark:text-white">
           VEEMU HealthCare
         </span>
       </Navbar.Brand>
@@ -33,18 +33,18 @@ export default function NavbarWithCTAButton() {
           active
           to="/"
         >
-          <p className='text-yellowtheme font-bold md:text-lg'>
+          <p className='text-fuchsia-950 font-bold md:text-lg'>
             Home
           </p>
         </Link>
-        <Link to="/about" className='text-yellowtheme font-bold md:text-lg'>
+        <Link to="/about" className='text-fuchsia-950 font-bold md:text-lg'>
           About
         </Link>
-        <Link to="/services" className='text-yellowtheme font-bold md:text-lg'>
+        <Link to="/services" className='text-fuchsia-950 font-bold md:text-lg'>
           Services
         </Link>
         
-        <Link to="/contact" className='text-yellowtheme font-bold md:text-lg'>
+        <Link to="/contact" className='text-fuchsia-950 font-bold md:text-lg'>
           Contact
         </Link>
       </Navbar.Collapse>
