@@ -15,7 +15,7 @@ module.exports = {
       },
 
       backgroundImage: {
-        'hero_pattern': "url('/src/images/side-view-nurse-pushing-disabled-patient-wheel-chair.jpg')",
+        'hero_pattern': "url('/src/images/african-social-worker-helping-senior-woman.jpg')",
         'team_work':"url('/src/images/older-man-wheelchair-smiles-nurse-assistant-she-hands-him-glass-water.jpg')",
         
       },

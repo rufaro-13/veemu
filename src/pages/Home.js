@@ -10,11 +10,11 @@ import serv from '../images/24-hours.gif'
 function Home() {
   return (
     <div>
-        
-        <section class=" bg-cover bg-center h-screen  bg-no-repeat bg-hero_pattern bg-gray-300 bg-blend-multiply ">
-            <div class="px-4 mx-auto max-w-screen-xl text-center  py-24 lg:py-34">
-            <h1 class="mb-4 text-4xl font-extrabold  tracking-tight leading-none text-fuchsia-900 md:text-5xl lg:text-6xl">VEEMU Limited</h1>
-                <p class="mb-8 text-2xl font-bold text-fuchsia-900 lg:text-fuchsia-900  lg:text-4xl sm:px-16 lg:px-48">
+       <section>
+        <section class=" bg-cover pt-20 bg-center bg-no-repeat bg-hero_pattern bg-gray-400 bg-blend-multiply ">
+            <div class="px-4 mx-auto max-w-screen-xl text-center  py-24 lg:py-40">
+            <h1 class=" text-4xl font-extrabold  tracking-tight leading-none text-navcolour md:text-5xl lg:text-6xl">VEEMU Limited</h1>
+                <p class=" text-2xl font-bold text-navcolour lg:text-navcolour  lg:text-4xl sm:px-16 lg:px-48">
                 We offer you quality care and compassionate care.
                     
                 </p>
@@ -25,12 +25,7 @@ function Home() {
                    </p>      
                 </div> 
 
-                <div class="flex flex-col  space-y-4 sm:flex-row pt-8 sm:justify-center sm:space-y-0 sm:space-x-4">
-            
-                <Link to="services" class="inline-flex justify-center bg-blue-700  hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
-                Learn more
-            </Link>  
-        </div> 
+                
             </div>
         </section>
 
@@ -143,7 +138,7 @@ function Home() {
             </div>
 
         </section>
-
+</section> 
     </div>
   )
 }
