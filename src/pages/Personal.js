@@ -1,5 +1,5 @@
 import React from 'react'
-import personal from '../images/smiley-woman-getting-ready-haircut-home-with-hairdresser.jpg'
+import personal from '../images/adult-male-waiting-recovery-session-start.jpg'
 
 function Personal() {
   return (
