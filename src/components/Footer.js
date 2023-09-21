@@ -47,8 +47,8 @@ function Footer() {
             </h5></center>
             <p className="font-normal text-sm md:text-lg text-fuchsia-900 dark:text-gray-400 pt-4">
                 <p class='text-left'>
-                We have a team of dedicated, passionate and knowledgable caregivers who provide great care. We work wit families to find the most suitable caregiver
-                for everyone who is cared for.<br/><br/>
+                We have a team of dedicated, passionate and knowledgable caregivers who provide great care. We work with families to find the most suitable caregiver
+                for everyone who uses our services.<br/><br/>
                 </p>
 
                 
@@ -83,17 +83,31 @@ function Footer() {
         <div class="sm:flex sm:items-center sm:justify-between">
             <a href="https://continuedhealthcare.com/" class="flex items-center mb-4 sm:mb-0">
                 <img src={logo} class="h-8 md:h-16 mr-3" alt="VEEMU Logo" />
-                <span class="self-center text-fuchsia-900 md:text-2xl text-1xl font-semibold whitespace-nowrap dark:text-white">VEEMU HealthCare</span>
+                <span class="self-center text-fuchsia-900 md:text-2xl text-1xl font-bold whitespace-nowrap dark:text-white">VEEMU HealthCare</span>
             </a>
-            <ul class="flex flex-wrap text-lg text-sm items-center mb-6 text-base font-medium text-white sm:mb-0 dark:text-gray-400">
-                <Link to="/about" className='text-fuchsia-900 md:px-8 px-4'>
-                    About
+            <ul class="flex flex-wrap text-lg text-sm  pt-6 text-base font-medium text-white sm:mb-0 dark:text-gray-400">
+                <Link to="/about" className='text-fuchsia-900 text-lg font-bold md:px-8 px-4'>
+                    About<br/>
+                    <ul class="list-disc ml-6 text-sm font-bold">
+                             <li><Link to='/about'><u>Mission</u></Link></li>
+                            <li><Link to='/about'><u>Vision</u></Link></li>
+                            <li><Link to='/about'><u>Values</u></Link></li>
+                             
+                            
+                    </ul>
                 </Link>
-                <Link to="/services" className='text-fuchsia-900 md:px-8 px-4'>
-                    Services
+                <Link to="/services" className='text-fuchsia-900 text-lg font-bold md:px-8 px-4'>
+                    Services<br/>
+                    <ul class="list-disc ml-6 text-sm font-bold">
+                             <li><Link to='/services'><u>Domiciliary Care</u></Link></li>
+                            <li><Link to='/personal'><u>Supported living</u></Link></li>
+                            <li><Link to='/services'><u>Respite Care</u></Link></li>
+                             <li><Link to='/services'><u>Palliative Care</u></Link></li>
+                            
+                            </ul>
                 </Link>
                 
-                <Link to="/contact" className='text-fuchsia-900 md:px-8 px-4'>
+                <Link to="/contact" className='text-fuchsia-900 text-lg font-bold md:px-8 px-4'>
                     Contact
                 </Link>
             </ul>

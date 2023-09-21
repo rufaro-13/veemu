@@ -1,6 +1,6 @@
 'use client';
 
-import {  Navbar } from 'flowbite-react';
+import {Dropdown,  Navbar } from 'flowbite-react';
 import { Link } from "react-router-dom";
 import logo from '../images/veemu_png.png'
 export default function NavbarWithCTAButton() {
@@ -40,6 +40,26 @@ export default function NavbarWithCTAButton() {
         <Link to="/about" className='text-fuchsia-950 font-bold md:text-lg'>
           About
         </Link>
+        <div className='text-fuchsia-950 font-bold md:text-lg'><Dropdown
+          inline
+          label="Domiciliary"
+          className='text-fuchsia-950 font-bold md:text-lg'
+        >
+        <Dropdown.Header className='bg-gray-200'>
+        <ul class="py-2 text-sm text-gray-700 dark:text-gray-400">
+        <Link to="/social" className='text-fuchsia-950 font-bold md:text-sm hover:bg-blue-700 hover:text-white'>
+          Social Inclusion
+        </Link><br/>
+        <Link to="/personal" className='text-fuchsia-950 font-bold md:text-sm hover:bg-blue-700 hover:text-white'>
+          Personal Care
+        </Link><br/>
+        <Link to="/sitting" className='text-fuchsia-950 font-bold md:text-sm hover:bg-blue-700 hover:text-white'>
+          Sitting Call
+        </Link><br/>
+                </ul>
+          </Dropdown.Header>
+          
+        </Dropdown></div>
         <Link to="/services" className='text-fuchsia-950 font-bold md:text-lg'>
           Services
         </Link>

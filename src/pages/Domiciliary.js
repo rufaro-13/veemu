@@ -1,10 +1,10 @@
 import React from 'react'
 import domiciliary from '../images/smiley-man-woman-medium-shot.jpg'
 import domic from "../images/african-social-worker-helping-senior-woman.jpg"
-import paliat from '../images/nurse-consoling-old-man-crying.jpg'
+import paliat from '../images/nurse-consoling-old-crying-man.jpg'
 import respite from '../images/side-view-nurse-pushing-disabled-patient-wheel-chair.jpg'
-
-function Services() {
+import {Link} from 'react-router-dom'
+function Domiciliary() {
   return (
     <div>
         <section>
@@ -57,19 +57,17 @@ function Services() {
                             </h5>
 
                             <p class='font-normal font-semibold text-sm md:text-lg px-2'>
-                            As VEEMU we help seniors maintain their quality of life and independence by continuing to
-                             live where they feel happiest and most comfortable i.e their home.
+                            Our domociliary care services helps service users to maintain a quality of life and independence inthe comfort
+                              their home.
                             The range of services we offer includes:<br/><br/>
-                            <div className='ml-6'><ul class="list-disc ">
-                             <li>household chores</li>
-                            <li>making meals</li>
-                            <li>running errands</li>
-                            <li>personal care</li>
-                            <li>administering medication</li>
-                            <li>companionship</li>
-                            <li>social inclusion</li>
-                                
-                            </ul></div>
+
+                            <ul class="list-disc ml-6">
+                             <li><Link to='/social'><u>Social Inclusion</u></Link></li>
+                            <li><Link to='/personal'><u>Personal Care</u></Link></li>
+                            <li><Link to='/sitting'><u>Social Inclusion</u></Link></li>
+                            
+                            </ul>
+                            
                             
                             <br/><br/>
 
@@ -85,28 +83,27 @@ function Services() {
                 <p class='font-normal bg-sky-200 text-fuchsia-950 text-sm md:text-lg   sm:items-center sm:justify-center px-2'>
                     <span className='text-xl font-bold'>Why should you choose our domiciliary care services:</span> <br/><br/>
                     <ul class="list-disc ml-8">
-                        <li> We are affordable, we listen we incorporate your wishes.</li>
-                        <li>We provide care at home in your familiar and comfortable environment for the cared for individual.</li>
-                        <li>A sense of retaining their independence and individual benefits from improved mental health is our priority.  </li>
+                        <li> We are affordable, we listen and incorporate your wishes.</li>
+                        <li>We provide care at home in your familiar and comfortable environment.</li>
                         <li>We support people to maintain their independence and promote choice.</li>
                         <li>We respect and promote dignity in delivery of our services.</li>
                         <li>We listen to your wishes and tailor make our services to suit your needs</li>
-                    </ul>
+                    </ul><br/>
                 </p>
 
-                <div class=" px-4 mx-auto max-w-screen-xl text-center pt-4">
+                <div class="px-2 lg:px-4 mx-auto max-w-screen-xl text-center pt-4">
 
                     <div class=" mx-auto max-w-fit text-center pt-6  ">
                         <h4 class="bg-gradient-to-r from-violet-950 to-fuchsia-950 bg-clip-text text-transparent mb-4 text-1xl font-bold tracking-tight leading-none  md:text-3xl lg:text-3xl">
-                            Types of home care we offer:
+                            Other services we offer:
                         </h4>
                     </div> 
-
-                            <div id='palliative' class="md:flex pt-4 pb-4">
-                                <div class="md:w-1/2 col-span-1 px-2 pt-2">
-                                    <img class="rounded-lg md:h-92" src={paliat}  alt="" />
+                        <div class="  grid  lg:grid-cols-3 lg:gap-x-3 m-auto md:grid-cols-2 md:gap-x-2 grid-col-1  lg:px-2 item-stretch ">
+                            <div id='palliative' class=" mt-8 pt-4 pb-4">
+                                <div class="md:w-full col-span-1  pt-2">
+                                    <img class="rounded-lg " src={paliat}  alt="" />
                                 </div>
-                                <div class="md:w-1/2  sm:82 rounded-lg  border-2 border-navcolour bg-sky-200 text-fuchsia-950 sm:items-center sm:justify-center  mx-2 ">      
+                                <div class="md:w-full  sm:82 rounded-lg  border-2 border-navcolour bg-sky-200 text-fuchsia-950 sm:items-center sm:justify-center  px-2 ">      
                                     <h5 className="md:text-2xl text-lg font-bold tracking-tight text-fuchsia-600 dark:text-white pt-2">
                                         <p>
                                         End-of-life Care(Palliative Care)
@@ -115,14 +112,14 @@ function Services() {
                                     <p className="font-normal text-sm md:text-lg  dark:text-gray-400 pt-4">
                                         <p className='rounded-lg text-left '>
                                         
-                                        We provide a range of services to those with a terminal illness. VEEMU is there to provide physical, emotional,
-                                        social, and spiritual support for service users and their families during defining moments of life. We offer this services from the time of diagnosis through end-of-life.
-                                        Services can start or stop when ever you feel it is necessary to.<br/><br/>
-                                        <span className=' font-bold'>What are the benefits of joining us?</span> <br/><br/>
+                                        We provide a range of services to those with a terminal diagnosis. VEEMU is there to provide physical, emotional,
+                                        social, and spiritual support for service users and their families during defining moments of life. We offer this service from the time of diagnosis through end-of-life.
+                                        <br/><br/>
+                                        <span className=' font-bold'>What you should joining us?</span> <br/><br/>
                                         <ul class="list-disc ml-6">
-                                            <li>We provide you with reassurance, comfort and companionship.</li>
+                                            <li>We provide reassurance, comfort and companionship.</li>
                                             <li>We bring comfort to loved ones by knowing that their relative/friend is receiving good quality care. This reduces 
-                                                strength and anxiety.
+                                                stress and anxiety.
                                             </li>
                                             <li>Help to manage pain using prescribed medication as well as engaging in therapeutic intervention.</li>
                                         </ul>
@@ -135,12 +132,12 @@ function Services() {
                             </div>
                        
 
-                            <div id='respite' class=" md:flex mt-8 pt-4 pb-4">
-                                <div class="md:w-1/2 col-span-1 px-2 pt-2">
+                            <div id='respite' class="  mt-8 pt-4 pb-4">
+                                <div class="md:w-full col-span-1 pt-2">
                             
                                 <img class="rounded-lg" src={respite} alt="" />
                                 </div>
-                                <div class="md:w-1/2  sm:82 rounded-lg  border-2 border-navcolour bg-sky-200 text-fuchsia-950 sm:items-center sm:justify-center   mx-2 ">
+                                <div class="md:w-full  sm:82 rounded-lg  border-2 border-navcolour bg-sky-200 text-fuchsia-950 sm:items-center sm:justify-center   px-2 ">
                                     <h5 className="md:text-2xl text-lg font-bold tracking-tight text-fuchsia-600 dark:text-white pt-2">
                                         <p>
                                         Respite Care
@@ -148,17 +145,10 @@ function Services() {
                                     </h5>
                                     <p className="font-normal text-sm md:text-lg  dark:text-gray-400 pt-4">
                                         <p className='text-left'>
-                                        We help primary caregivers and families get some relief in order to re-energise at peace by providing
-                                        temporary care services to their loved ones being looked after. This gives an 
-                                        opportunity to work outside home, take care of personal stuff and or manage other responsibilities
-
-                                        We can provide these services at home or residential facilities. The services include:<br/><br/>
-
-                                        <ul class="list-disc ml-6">
-                                            <li>Individual's care is taken over by a trained carer for an agreed amount of time</li>
-                                            <li>Taking out the cared for indivdual</li>
-                                            
-                                        </ul><br/>
+                                        We help primary caregivers and families get some relief in order to re-energise by providing
+                                        temporary care services to their loved ones being looked after. This allows carers/family some time to catch up with friends
+                                        and engage in other activities of their interest.<br/><br/>
+                                         
 
                                         <span className=' font-bold'>We strive to:</span>
     <br/>
@@ -167,18 +157,18 @@ function Services() {
                                             <li>prevent burnouts and provide the opportunity for a break to family members or carers.</li>
                                             <li>offer a person centred care, placing our service users at the centre of our services</li>
                                         </ul>
-                                    </p> 
+                                    </p> <br/><br/>
                                     </p>
                                 </div>
                             
                             </div>
 
-                            <div id='supported' class=" md:flex mt-8 pt-4 pb-4">
-                                <div class="md:w-1/2 col-span-1 px-2 pt-2">
+                            <div id='supported' class=" mt-8 pt-4 pb-4">
+                                <div class="md:w-full col-span-1  pt-2">
                                     <img class="rounded-lg" src={domic} alt="" />
                                 </div>
-                                <div class="md:w-1/2  sm:82 rounded-lg  border-2 border-navcolour bg-sky-200 text-fuchsia-950 sm:items-center sm:justify-center   mx-2 ">
-                                    <h5 className="md:text-2xl text-lg font-bold tracking-tight text-fuchsi-600 dark:text-white pt-2">
+                                <div class="md:w-full  sm:82 rounded-lg  border-2 border-navcolour bg-sky-200 text-fuchsia-950 sm:items-center sm:justify-center   px-2 ">
+                                    <h5 className="md:text-2xl text-lg font-bold tracking-tight text-fuchsia-600 dark:text-white pt-2">
                                             <p>
                                             Supported Living Care
                                             </p>
@@ -187,10 +177,10 @@ function Services() {
 
                                     <p className="font-normal text-sm md:text-lg  dark:text-gray-400 pt-4">
                                         <p className='text-left'>
-                                        Our Supported Living services enable people to live independently and manage their own tenancies, 
+                                        Our Supported Living services help people to live independently and manage their own tenancies, 
                                         with support designed around their needs and goals. We aim to promote choice and personalise our 
-                                        services to the needs of our service users. We support adults with mental health needs, dementia, 
-                                        learning disability and those recovering from hospital discharge.The services we offer include support with:<br/><br/>
+                                        services to the needs of our service users. We support adults with mental health needs, dementia 
+                                        and those recovering from hospital discharge.The services we offer include support with:<br/><br/>
                                         <ul class="list-disc ml-6">
                                             <li>Cooking, cleaning and running errands</li>
                                             <li>Promoting a healthy lifestyle</li>
@@ -201,15 +191,11 @@ function Services() {
                                             <li>Promoting relationships with family and friends.</li>                                    
                                         </ul>
 
-                                        {/* Some of the advantages include:<br/>
-                                        <ul class="list-disc ">
-                                            <li>It is good for the mental health and wellbeing of both the carer and the individual being cared fo</li>
-                                            <li>it prevents burnout and provides the opportunity for a break to family members or carers</li>
-                                        </ul> */}
+                                        
                                     </p> 
                                     </p>
                                  </div>
-                            
+                            </div>
                         </div>
                                         
                     
@@ -221,4 +207,4 @@ function Services() {
 )
 }
 
-export default Services
+export default Domiciliary

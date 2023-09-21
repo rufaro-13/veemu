@@ -62,7 +62,7 @@ function Contact() {
                           <div class="  sm:items-center sm:justify-center   mt-1">
                             <p class=" text-1xl font-normal">
                             <div><span class="text-black  "><a href="tel:0795 419 2764" 
-                            className="block py-2  underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent 
+                            className="block py-2  underline text-black rounded hover:bg-gray-100 md:hover:bg-transparent 
                             md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700
                              dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Mobile: 07427494551</a></span></div>
                             
@@ -102,7 +102,7 @@ function Contact() {
                           <div class="  sm:items-center sm:justify-center   mt-1">
                             <p class=" text-1xl font-normal">
                             <div><span class="text-black "><a href="tel:02477981121" 
-                            className="block py-2  underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent 
+                            className="block py-2  underline text-black rounded hover:bg-gray-100 md:hover:bg-transparent 
                             md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700
                              dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Landline:  0203 534 0955</a></span></div>
                           

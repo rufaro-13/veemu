@@ -34,9 +34,9 @@ function About() {
 
                         <p class="pl-4 font-normal text-fuchsia-900 text-sm md:text-lg">
                         
-                        To provide a high standard of care and support to all our service users maintaining their life style.
-                        Providing person centred care and to support to all service users with a range of care needs such as mental 
-                        health needs and physical diisabilities. Our team of healthcare professionals will be there to cater for your needs 24/7.
+                        To provide a high standard of care and support to all our service users promoting their wellbeing.
+                        Providing person centred care and support to all our service users with a range of care and support needs.
+                         Our team of healthcare professionals is there to provide care and support 24/7.
 
 
                         <br/><br/>
@@ -59,7 +59,8 @@ function About() {
 
                         <p class="pl-4 font-normal text-fuchsia-900 text-sm md:text-lg">
                         
-                        VEEMU will be a recognised leader in improving the quality of health care in the communities we serve .
+                        VEEMU will be a recognised leader in improving the quality of health care in the communities we serve .<br/>
+                        To become providers of choice.
 
 
                         <br/><br/>
@@ -90,7 +91,7 @@ function About() {
 
                                 <p class="pl-4 font-medium text-fuchsia-900 text-sm md:text-lg">
                                 
-                                <b>Independence -</b> We prioritize our service users' independence
+                                <b>Independence -</b> We prioritize our service users' independence.
 
                                 <br/><br/>
 
@@ -107,7 +108,7 @@ function About() {
                             
                                 <p class="pl-4 font-medium text-fuchsia-900 text-sm md:text-lg">
                                 
-                                <b>Individuality -</b> Each person is supported and taken care of according to their care needs, following the support care plan.
+                                <b>Individuality -</b> Each person is supported and taken care of according to their care needs, following their care and support plan.
 
                                 <br/><br/>
 
