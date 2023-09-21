@@ -1,6 +1,6 @@
 import React from 'react'
 import inclusion from '../images/seniors-playing-cards-cafe.jpg'
-import {Link} from 'react-router-dom'
+
 function Social() {
   return (
     <div>
@@ -43,46 +43,7 @@ function Social() {
                                
                             </div>
         </section>
-        <div class="  grid  lg:grid-cols-3 lg:gap-x-3 m-auto md:grid-cols-2 md:gap-x-2 grid-col-1 px-2 lg:px-5 item-stretch ">
-                            <div id='palliative' class=" mt-8 pt-4 pb-4">
-                                
-                                <div class="md:w-3/4 pt-8 pb-8 sm:82 rounded-lg  border-2 border-navcolour bg-sky-200 text-fuchsia-950 sm:items-center sm:justify-center  px-2 ">      
-                                    <h5 className="md:text-2xl text-lg font-bold tracking-tight text-fuchsia-600 dark:text-white pt-2">
-                                        <p>
-                                        <Link to='/sitting'><u>Sitting Calls</u></Link>
-                                        </p>
-                                    </h5>
-                                    
-                                </div>
-                               
-                            </div>
-                       
-
-                            <div id='respite' class="  mt-8 pt-4 pb-4">
-                                
-                                <div class="md:w-3/4 pt-8 pb-8 sm:82 rounded-lg  border-2 border-navcolour bg-sky-200 text-fuchsia-950 sm:items-center sm:justify-center   px-2 ">
-                                    <h5 className="md:text-2xl text-lg font-bold tracking-tight text-fuchsia-600 dark:text-white pt-2">
-                                        <p>
-                                        <Link to='/personal'><u>Personal Care</u></Link>
-                                        </p>
-                                    </h5>
-                                    
-                                </div>
-                            
-                            </div>
-
-                            <div id='supported' class=" mt-8 pt-4 pb-4">
-                            
-                                <div class="md:w-3/4 pt-8 pb-8 sm:82 rounded-lg  border-2 border-navcolour bg-sky-200 text-fuchsia-950 sm:items-center sm:justify-center   px-2 ">
-                                    <h5 className="md:text-2xl text-lg font-bold tracking-tight text-fuchsia-600 dark:text-white pt-2">
-                                            <p>
-                                            <Link to='/services'><u>Other Services</u></Link>
-                                            </p>
-                                    </h5>
-                                    
-                                 </div>
-                            </div>
-                        </div>
+        
         
         </section>
 
