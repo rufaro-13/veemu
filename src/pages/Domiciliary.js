@@ -115,7 +115,7 @@ function Domiciliary() {
                                         We provide a range of services to those with a terminal diagnosis. VEEMU is there to provide physical, emotional,
                                         social, and spiritual support for service users and their families during defining moments of life. We offer this service from the time of diagnosis through end-of-life.
                                         <br/><br/>
-                                        <span className=' font-bold'>Why you should joining us:</span> <br/><br/>
+                                        <span className=' font-bold'>Why you should join us:</span> <br/><br/>
                                         <ul class="list-disc ml-6">
                                             <li>We provide reassurance, comfort and companionship.</li>
                                             <li>We bring comfort to loved ones by knowing that their relative/friend is receiving good quality care. This reduces 
@@ -155,7 +155,7 @@ function Domiciliary() {
                                         <ul class="list-disc ml-6">
                                             <li>promote the mental health and wellbeing of our carers and the individual being cared for.</li>
                                             <li>prevent burnouts and provide the opportunity for a break to family members or carers.</li>
-                                            <li>offer a person centred care, placing our service users at the centre of our services</li>
+                                            <li>offer a person centred care, placing our service users at the centre of our services.</li>
                                         </ul>
                                     </p> <br/><br/>
                                     </p>
