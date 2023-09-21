@@ -128,7 +128,7 @@ function Contact() {
                                       VEEMU HealthCare Limited<br/>19 Albert Square<br/>
                                       Stratford 
                                       London
-                                      <br/>CV6 3FY
+                                      <br/>E15 1HJ
                             </p>
                           </div>
 
