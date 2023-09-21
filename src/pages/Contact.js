@@ -115,7 +115,7 @@ function Contact() {
                     <div class="max-w-fit  sm:82 rounded-lg  sm:items-center sm:justify-center py-4  lg:ml-48 mt-8">
 
                           <IconContext.Provider value={{ color: '#89cff0', size: '50px', padding:'5px 2px' }}>
-                            <a href="https://www.google.com/maps/place/40+Capmartin+Rd,+Coventry+CV6+3FY,+UK/@52.4279819,-1.5136573,18z"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
+                            <a href="https://www.google.com/maps/place/19+Albert+Square,+London+E15+1HJ,+UK/@51.6118925,0.0336148,11z"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
                               <FaLocationDot class="sm:items-center sm:justify-center  my-6"/>
                             </div></a>
                           </IconContext.Provider>
