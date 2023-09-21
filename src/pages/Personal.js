@@ -5,8 +5,8 @@ function Personal() {
   return (
     <div>
          <section>
-        <section class=" bg-cover bg-center bg-no-repeat bg-personal bg-gray-200  bg-blend-multiply">
-            <div class="px-4 mx-auto max-w-screen-xl  bg- py-24 lg:py-40">
+        <section class=" bg-cover bg-center bg-no-repeat bg-gray-200  bg-blend-multiply">
+            <div class="px-4 mx-auto max-w-screen-xl  bg- py-16 lg:py-20">
                 <h1 class="mb-4 text-4xl font-extrabold  tracking-tight leading-none text-yellowtheme md:text-5xl lg:text-6xl">
                 Personal Care</h1>
                 
@@ -14,7 +14,7 @@ function Personal() {
 
 
             <section>
-        <div id='palliative' class="md:flex pt-8 pb-4">
+        <div id='palliative' class="md:flex pt-5 ">
                                 <div class="md:w-1/2 col-span-1 px-2 ">
                                     <img class="rounded-lg md:h-92" src={personal}  alt="" />
                                 </div>

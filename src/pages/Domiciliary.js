@@ -57,14 +57,14 @@ function Domiciliary() {
                             </h5>
 
                             <p class='font-normal font-semibold text-sm md:text-lg px-2'>
-                            Our domociliary care services helps service users to maintain a quality of life and independence inthe comfort
+                            Our domiciliary care services help service users to maintain a quality of life and independence in the comfort of
                               their home.
                             The range of services we offer includes:<br/><br/>
 
                             <ul class="list-disc ml-6">
                              <li><Link to='/social'><u>Social Inclusion</u></Link></li>
                             <li><Link to='/personal'><u>Personal Care</u></Link></li>
-                            <li><Link to='/sitting'><u>Social Inclusion</u></Link></li>
+                            <li><Link to='/sitting'><u>Sitting Calls</u></Link></li>
                             
                             </ul>
                             
@@ -115,7 +115,7 @@ function Domiciliary() {
                                         We provide a range of services to those with a terminal diagnosis. VEEMU is there to provide physical, emotional,
                                         social, and spiritual support for service users and their families during defining moments of life. We offer this service from the time of diagnosis through end-of-life.
                                         <br/><br/>
-                                        <span className=' font-bold'>What you should joining us?</span> <br/><br/>
+                                        <span className=' font-bold'>Why you should joining us:</span> <br/><br/>
                                         <ul class="list-disc ml-6">
                                             <li>We provide reassurance, comfort and companionship.</li>
                                             <li>We bring comfort to loved ones by knowing that their relative/friend is receiving good quality care. This reduces 

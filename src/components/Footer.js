@@ -13,7 +13,7 @@ function Footer() {
 <div className='bg-gray-200'>
     <div className="sm:item-center bg-gray-200 sm:justify-center text-center ">
 
-        <h1 className='sm:tetx-2xl md:text-4xl text-fuchsia-900 font-bold '>Why Choose Us</h1>
+        <h1 className='sm:tetx-2xl md:text-4xl text-fuchsia-900 font-extrabold'>Why Choose Us</h1>
     </div>
 
     <div className='lg:flex grid  lg:grid-cols-3 lg:gap-4 m-auto md:grid-cols-2 md:gap-x-2 grid-col-1 pt-8 px-2 md:px-5 '>
