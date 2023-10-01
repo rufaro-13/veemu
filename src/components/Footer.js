@@ -81,12 +81,12 @@ function Footer() {
 <footer class="bg-navcolour   shadow dark:bg-gray-900 ">
     <div class="w-full max-w-screen-xl mx-auto py-5 md:py-8">
         <div class="sm:flex sm:items-center sm:justify-between">
-            <a href="https://continuedhealthcare.com/" class="flex items-center mb-4 sm:mb-0">
+            <a href="https://veemuhealthcare.co.uk/" class="flex items-center mb-4 sm:mb-0">
                 <img src={logo} class="h-8 md:h-16 mr-3" alt="VEEMU Logo" />
                 <span class="self-center text-fuchsia-900 md:text-2xl text-1xl font-bold whitespace-nowrap dark:text-white">VEEMU HealthCare</span>
             </a>
             <ul class="flex flex-wrap text-lg text-sm  pt-6 text-base font-medium text-white sm:mb-0 dark:text-gray-400">
-                <Link to="/about" className='text-fuchsia-900 text-lg font-bold md:px-8 px-4'>
+                <p className='text-fuchsia-900 text-lg font-bold md:px-8 px-4'>
                     About<br/>
                     <ul class="list-disc ml-6 text-sm font-bold">
                              <li><Link to='/about'><u>Mission</u></Link></li>
@@ -95,8 +95,8 @@ function Footer() {
                              
                             
                     </ul>
-                </Link>
-                <Link to="/services" className='text-fuchsia-900 text-lg font-bold md:px-8 px-4'>
+                </p>
+                <p  className='text-fuchsia-900 text-lg font-bold md:px-8 px-4'>
                     Services<br/>
                     <ul class="list-disc ml-6 text-sm font-bold">
                              <li><Link to='/services'><u>Domiciliary Care</u></Link></li>
@@ -105,7 +105,7 @@ function Footer() {
                              <li><Link to='/services'><u>Palliative Care</u></Link></li>
                             
                             </ul>
-                </Link>
+                </p>
                 
                 <Link to="/contact" className='text-fuchsia-900 text-lg font-bold md:px-8 px-4'>
                     Contact
@@ -115,7 +115,7 @@ function Footer() {
         <hr class="my-6 border-fuchsia-900 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between ml-4">
         <span class="block text-sm text-fuchsia-900 sm:text-center dark:text-gray-400 col-span-1">© 2023 
-            <a href="https://continuedhealthcare.com/" class="hover:underline text-fuchsia-900">
+            <a href="https://veemuhealthcare.co.uk/" class="hover:underline text-fuchsia-900">
                 VEEMU™
             </a>. 
             All Rights Reserved.
