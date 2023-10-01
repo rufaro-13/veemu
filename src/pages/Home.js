@@ -2,7 +2,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import domic from "../images/old-man-sitting-wheelchair-while-talking-nurse.jpg"
-
+import { Helmet } from 'react-helmet-async';
 import paliat from '../images/high-angle-man-sleeping-with-mask.jpg'
 import respite from '../images/young-doctor-helping-one-guy-stand-up.jpg'
 import supported from '../images/male-social-worker-taking-care-old-woman.jpg'
@@ -10,6 +10,12 @@ import serv from '../images/24-hours.gif'
 function Home() {
   return (
     <div>
+
+        <Helmet>
+            <title>Home </title>
+            <meta name="description" content="Welcome to VEEMU HEALTHCARE LTD, where we offer the best healthcare services."/>
+            <link rel="canonical" href="/" />
+        </Helmet>
        <section>
         <section class=" bg-cover pt-20 bg-center bg-no-repeat bg-hero_pattern bg-gray-400 bg-blend-multiply ">
             <div class="px-4 mx-auto max-w-screen-xl text-center  py-24 lg:py-40">

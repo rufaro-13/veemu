@@ -1,9 +1,15 @@
 import React from 'react'
 import supported from '../images/male-social-worker-taking-care-old-woman.jpg'
-
+import { Helmet } from 'react-helmet-async'
 function Sitting() {
   return (
     <div>
+
+<Helmet>
+            <title>Sitting Calls</title>
+            <meta name="description" content="See our detailed sitting call services"/>
+            <link rel="canonical" href="/sitting" />
+        </Helmet>
         <section>
         <section class="  bg-cover bg-center bg-no-repeat  bg-gray-200  bg-blend-multiply">
             <div class="px-4 mx-auto max-w-screen-xl  bg- py-16 lg:py-20">

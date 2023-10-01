@@ -1,9 +1,15 @@
 import React from 'react'
 import personal from '../images/adult-male-waiting-recovery-session-start.jpg'
-
+import { Helmet } from 'react-helmet-async'
 function Personal() {
   return (
     <div>
+
+        <Helmet>
+            <title>Personal Care</title>
+            <meta name="description" content="See our detailed personal care services"/>
+            <link rel="canonical" href="/personal" />
+        </Helmet>
          <section>
         <section class=" bg-cover bg-center bg-no-repeat bg-gray-200  bg-blend-multiply">
             <div class="px-4 mx-auto max-w-screen-xl  bg- py-16 lg:py-20">

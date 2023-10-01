@@ -1,9 +1,15 @@
 import React from 'react'
 import inclusion from '../images/seniors-playing-cards-cafe.jpg'
-
+import {Helmet} from 'react-helmet-async'
 function Social() {
   return (
     <div>
+
+         <Helmet>
+            <title>Social Care</title>
+            <meta name="description" content="See our detailed social care services"/>
+            <link rel="canonical" href="/social" />
+        </Helmet>
         <section>
         <section class=" bg-cover bg-center bg-no-repeat  bg-gray-200  bg-blend-multiply">
             <div class="px-4 mx-auto max-w-screen-xl  bg- py-16 lg:py-20">

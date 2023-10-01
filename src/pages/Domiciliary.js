@@ -4,9 +4,15 @@ import domic from "../images/african-social-worker-helping-senior-woman.jpg"
 import paliat from '../images/nurse-consoling-old-crying-man.jpg'
 import respite from '../images/side-view-nurse-pushing-disabled-patient-wheel-chair.jpg'
 import {Link} from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 function Domiciliary() {
   return (
     <div>
+        <Helmet>
+            <title>Domiciliary Care</title>
+            <meta name="description" content="See our detailed domiciliary care services"/>
+            <link rel="canonical" href="/domiciliary" />
+        </Helmet>
         <section>
         <section class=" bg-cover bg-center bg-no-repeat bg-team_work bg-gray-600  bg-blend-multiply">
             <div class="px-4 mx-auto max-w-screen-xl  bg- py-24 lg:py-34">

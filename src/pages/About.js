@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Helmet } from 'react-helmet-async';
 import {TbTargetArrow,TbStarFilled} from 'react-icons/tb'
 import {HiLightBulb} from 'react-icons/hi'
 import { IconContext } from "react-icons";
@@ -7,13 +7,20 @@ import { IconContext } from "react-icons";
 function About() {
   return (
     <div>
+
+     <Helmet>
+            <title>About Veemu HealthCare Ltd</title>
+            <meta name="description" content="Providing person centred care and support to all our service users with a range of care and support needs.
+                        "/>
+            <link rel="canonical" href="/about" />
+        </Helmet>
       <section>
             <div class=" px-4 mx-auto max-w-screen-xl t pt-4">
 
                 <div class="px-4 mx-auto max-w-screen-xl text-center pt-6  ">
-                    <h4 class="mb-4 text-3xl font-extrabold tracking-tight leading-none text-yellowtheme md:text-3xl lg:text-5xl">
+                    <h1 class="mb-4 text-3xl font-extrabold tracking-tight leading-none text-yellowtheme md:text-3xl lg:text-5xl">
                        About US
-                    </h4>
+                    </h1>
 
                     
                 </div>

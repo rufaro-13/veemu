@@ -1,7 +1,7 @@
 import React from 'react'
 import { IconContext } from "react-icons";
 import { FaEnvelopeOpenText, FaLocationDot, FaMobileScreenButton, FaPhone,  } from 'react-icons/fa6';
-
+import {Helmet} from 'react-helmet-async'
 //import  Map from '../components/Map'
 
 function Contact() {
@@ -13,6 +13,12 @@ function Contact() {
 //}
   return (
     <div>
+
+<Helmet>
+            <title>Veemu HealthCare Contacts</title>
+            <meta name="description" content="Get in touch with us in the provided contact information"/>
+            <link rel="canonical" href="/contact" />
+        </Helmet>
         <section>
             <div class=" lg:px-4 mx-auto max-w-screen-xl t pt-4">
 
