@@ -27,8 +27,8 @@ function Domiciliary() {
                             <div className='ml-6'><ul class="list-disc ">
                              <li><a class='' href='#domiciliary'><u>Domiciliary Care</u></a></li>
                             <li><a href='#respite'><u>Respite Care</u></a> </li>
-                            <li><a href='#supported'><u>Supported Living</u></a></li>
-                            <li><a href='#palliative'><u>Palliative Care</u></a></li>
+                            <li><a href='#supported'><u>Live-in Care</u></a></li>
+                            <li><a href='#palliative'><u>Extra Care</u></a></li>
                             
                                 
                             </ul></div>
@@ -104,38 +104,8 @@ function Domiciliary() {
                             Other services we offer:
                         </h4>
                     </div> 
-                        <div class="  grid  lg:grid-cols-3 lg:gap-x-3 m-auto md:grid-cols-2 md:gap-x-2 grid-col-1  lg:px-2 item-stretch ">
-                            <div id='palliative' class=" mt-8 pt-4 pb-4">
-                                <div class="md:w-full col-span-1  pt-2">
-                                    <img class="rounded-lg " src={paliat}  alt="" />
-                                </div>
-                                <div class="md:w-full  sm:82 rounded-lg  border-2 border-navcolour bg-sky-200 text-fuchsia-950 sm:items-center sm:justify-center  px-2 ">      
-                                    <h5 className="md:text-2xl text-lg font-bold tracking-tight text-fuchsia-600 dark:text-white pt-2">
-                                        <p>
-                                        End-of-life Care(Palliative Care)
-                                        </p>
-                                    </h5>
-                                    <p className="font-normal text-sm md:text-lg  dark:text-gray-400 pt-4">
-                                        <p className='rounded-lg text-left '>
-                                        
-                                        We provide a range of services to those with a terminal diagnosis. VEEMU is there to provide physical, emotional,
-                                        social, and spiritual support for service users and their families during defining moments of life. We offer this service from the time of diagnosis through end-of-life.
-                                        <br/><br/>
-                                        <span className=' font-bold'>Why you should join us:</span> <br/><br/>
-                                        <ul class="list-disc ml-6">
-                                            <li>We provide reassurance, comfort and companionship.</li>
-                                            <li>We bring comfort to loved ones by knowing that their relative/friend is receiving good quality care. This reduces 
-                                                stress and anxiety.
-                                            </li>
-                                            <li>Help to manage pain using prescribed medication as well as engaging in therapeutic intervention.</li>
-                                        </ul>
-                                        </p>
-
-                                        
-                                    </p>
-                                </div>
-                               
-                            </div>
+                        <div class="  lg:gap-x-3 m-auto m md:gap-x-2 grid-col-1  lg:px-2 item-stretch ">
+                            
                        
 
                             <div id='respite' class="  mt-8 pt-4 pb-4">
@@ -152,7 +122,8 @@ function Domiciliary() {
                                     <p className="font-normal text-sm md:text-lg  dark:text-gray-400 pt-4">
                                         <p className='text-left'>
                                         We help primary caregivers and families get some relief in order to re-energise by providing
-                                        temporary care services to their loved ones being looked after. This allows carers/family some time to catch up with friends
+                                        temporary care services to their loved ones being looked after. This allows carers/family some 
+                                        time to catch up with friends
                                         and engage in other activities of their interest.<br/><br/>
                                          
 
@@ -169,39 +140,7 @@ function Domiciliary() {
                             
                             </div>
 
-                            <div id='supported' class=" mt-8 pt-4 pb-4">
-                                <div class="md:w-full col-span-1  pt-2">
-                                    <img class="rounded-lg" src={domic} alt="" />
-                                </div>
-                                <div class="md:w-full  sm:82 rounded-lg  border-2 border-navcolour bg-sky-200 text-fuchsia-950 sm:items-center sm:justify-center   px-2 ">
-                                    <h5 className="md:text-2xl text-lg font-bold tracking-tight text-fuchsia-600 dark:text-white pt-2">
-                                            <p>
-                                            Supported Living Care
-                                            </p>
-                                    </h5>
-                                    
-
-                                    <p className="font-normal text-sm md:text-lg  dark:text-gray-400 pt-4">
-                                        <p className='text-left'>
-                                        Our Supported Living services help people to live independently and manage their own tenancies, 
-                                        with support designed around their needs and goals. We aim to promote choice and personalise our 
-                                        services to the needs of our service users. We support adults with mental health needs, dementia 
-                                        and those recovering from hospital discharge.The services we offer include support with:<br/><br/>
-                                        <ul class="list-disc ml-6">
-                                            <li>Cooking, cleaning and running errands</li>
-                                            <li>Promoting a healthy lifestyle</li>
-                                            <li>Personal care, such as getting washed and dressed and toileting</li>  
-                                            <li>Support with medication.</li>
-                                            <li>Social inclusion</li>
-                                            <li>Light housekeeping</li>  
-                                            <li>Promoting relationships with family and friends.</li>                                    
-                                        </ul>
-
-                                        
-                                    </p> 
-                                    </p>
-                                 </div>
-                            </div>
+                            
                         </div>
                                         
                     

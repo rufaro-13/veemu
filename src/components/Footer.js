@@ -29,7 +29,7 @@ function Footer() {
             <p className="font-normal text-sm md:text-lg text-fuchsia-900 dark:text-gray-400 pt-4">
                 <p class='text-left'>
                 
-                We offer 24 hour services.Anytime you request our services, we show up before you know it. 
+                We offer 24 hour services. Anytime you request our services, we show up before you know it. 
                 Our team is prepared to work according to personal schedule. We also make at-home care easy for loved ones.<br/>
 
                 </p>
@@ -100,9 +100,9 @@ function Footer() {
                     Services<br/>
                     <ul class="list-disc ml-6 text-sm font-bold">
                              <li><Link to='/services'><u>Domiciliary Care</u></Link></li>
-                            <li><Link to='/personal'><u>Supported living</u></Link></li>
+                            <li><Link to='/personal'><u>Live-in Care</u></Link></li>
                             <li><Link to='/services'><u>Respite Care</u></Link></li>
-                             <li><Link to='/services'><u>Palliative Care</u></Link></li>
+                             <li><Link to='/services'><u>Extra Care</u></Link></li>
                             
                             </ul>
                 </p>

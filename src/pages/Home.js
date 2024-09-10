@@ -79,7 +79,7 @@ function Home() {
                         <img class="rounded-lg" src={paliat} alt="end of life care of a man with terminal illness" />
                         <h5 className="md:text-2xl text-lg font-bold tracking-tight text-fuchsia-600 dark:text-white pt-2">
                             <p>
-                            End-of-life Care
+                            Extra Care
                             </p>
                         </h5>
                         <p className="font-normal text-sm md:text-lg text-fuchsia-900 dark:text-gray-400 pt-4">
@@ -123,7 +123,7 @@ function Home() {
                         <img class="rounded-t-lg" src={supported} alt="male-social-worker-taking-care-old-woman" />
                         <h5 className="md:text-2xl text-lg font-bold tracking-tight text-fuchsia-600 dark:text-white pt-2">
                             <p >
-                            Supported Living
+                            Live-in Care
                             </p>
                         </h5>
                         <p className="font-normal text-sm md:text-lg text-fuchsia-900 dark:text-gray-400 pt-4">

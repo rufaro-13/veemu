@@ -9,6 +9,9 @@ import Domiciliary from './pages/Domiciliary';
 import Sitting from './pages/Sitting';
 import Personal from './pages/Personal';
 import Social from './pages/Social';
+import Extra from './pages/Extra';
+import Shared from './pages/Shared';
+import Vacancy from './pages/Vacancy';
 
 
 function App() {
@@ -23,6 +26,11 @@ function App() {
         <Route forceRefresh={true} path='/social' element= {<Social/>}></Route>
         <Route forceRefresh={true} path='/personal' element= {<Personal/>}></Route>
         <Route forceRefresh={true} path='/sitting' element= {<Sitting/>}></Route>
+        <Route forceRefresh={true} path='/extra' element= {<Extra/>}></Route>
+        <Route forceRefresh={true} path='/shared' element= {<Shared/>}></Route>
+        <Route forceRefresh={true} path='/vacancy' element= {<Vacancy/>}></Route>
+
+
         </Route>
       </Routes>
     </BrowserRouter>

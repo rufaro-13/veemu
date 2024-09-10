@@ -40,6 +40,9 @@ export default function NavbarWithCTAButton() {
         <Link to="/about" className='text-fuchsia-950 font-bold md:text-lg'>
           About
         </Link>
+        <Link to="/vacancy" className='text-fuchsia-950 font-bold md:text-lg'>
+          Careers
+        </Link>
         <div className='text-fuchsia-950 font-bold md:text-lg'><Dropdown
           inline
           label="Domiciliary"
@@ -53,6 +56,7 @@ export default function NavbarWithCTAButton() {
         <Link to="/personal" className='text-fuchsia-950 font-bold md:text-sm hover:bg-blue-700 hover:text-white'>
           Personal Care
         </Link><br/>
+        
         <Link to="/sitting" className='text-fuchsia-950 font-bold md:text-sm hover:bg-blue-700 hover:text-white'>
           Sitting Call
         </Link><br/>
@@ -60,9 +64,28 @@ export default function NavbarWithCTAButton() {
           </Dropdown.Header>
           
         </Dropdown></div>
-        <Link to="/services" className='text-fuchsia-950 font-bold md:text-lg'>
-          Services
-        </Link>
+
+        <div className='text-fuchsia-950 font-bold md:text-lg'>
+          <Link to="/services">
+          <Dropdown
+          inline
+          label="Services"
+          className='text-fuchsia-950 font-bold md:text-lg'
+        >
+        <Dropdown.Header className='bg-gray-200'>
+        <ul class="py-2 text-sm text-gray-700 dark:text-gray-400">
+        
+        <Link to="/extra" className='text-fuchsia-950 font-bold md:text-sm hover:bg-blue-700 hover:text-white'>
+          Extra Care
+        </Link><br/>
+        <Link to="/shared" className='text-fuchsia-950 font-bold md:text-sm hover:bg-blue-700 hover:text-white'>
+          Shared Living
+        </Link><br/>
+        
+                </ul>
+          </Dropdown.Header>
+          
+        </Dropdown></Link></div>
         
         <Link to="/contact" className='text-fuchsia-950 font-bold md:text-lg'>
           Contact
