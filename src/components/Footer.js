@@ -99,10 +99,11 @@ function Footer() {
                 <p  className='text-fuchsia-900 text-lg font-bold md:px-8 px-4'>
                     Services<br/>
                     <ul class="list-disc ml-6 text-sm font-bold">
-                             <li><Link to='/services'><u>Domiciliary Care</u></Link></li>
-                            <li><Link to='/personal'><u>Live-in Care</u></Link></li>
+                             <li><Link to='/services'><u>Domiciliary Care</u></Link></li> 
                             <li><Link to='/services'><u>Respite Care</u></Link></li>
-                             <li><Link to='/services'><u>Extra Care</u></Link></li>
+                            <li><Link to='/shared'><u>Shared Living</u></Link></li>
+                            <li><Link to='/live'><u>Live In Care</u></Link></li>
+                             <li><Link to='/extra'><u>Extra Care</u></Link></li>
                             
                             </ul>
                 </p>

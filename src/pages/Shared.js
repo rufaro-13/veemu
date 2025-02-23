@@ -14,7 +14,7 @@ function Shared() {
         <section class=" bg-cover bg-center bg-no-repeat  bg-gray-200  bg-blend-multiply">
             <div class="px-4 mx-auto max-w-screen-xl  bg- py-16 lg:py-20">
                 <h1 class="mb-4 text-4xl font-extrabold  tracking-tight leading-none text-yellowtheme md:text-5xl lg:text-6xl">
-                Shared Care:</h1>
+                Shared Lives:</h1>
                 
             </div>
 
@@ -27,7 +27,7 @@ function Shared() {
             <div class="md:w-1/2  sm:82 rounded-lg   text-fuchsia-950 sm:items-center sm:justify-center  mx-2 ">      
                 <h5 className="md:text-2xl text-lg font-bold tracking-tight text-fuchsia-600 dark:text-white pt-2">
                     <p>
-                    Shared Care (Live in Care)
+                    Shared Care
                     </p>
                 </h5>
                 <p className="font-normal text-sm md:text-lg  dark:text-gray-400 pt-4">

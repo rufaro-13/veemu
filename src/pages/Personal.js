@@ -24,7 +24,7 @@ function Personal() {
                                 <div class="md:w-1/2 col-span-1 px-2 ">
                                     <img class="rounded-lg md:h-92" src={personal}  alt="" />
                                 </div>
-                                <div class="md:w-1/2  sm:82 rounded-lg  border-2 border-navcolour bg-sky-200 text-fuchsia-950 sm:items-center sm:justify-center  mx-2 ">      
+                                <div class="md:w-1/2  sm:82 rounded-lg   text-fuchsia-950 sm:items-center sm:justify-center  mx-2 ">      
                                     <h5 className="md:text-2xl text-lg font-bold tracking-tight text-fuchsia-600 dark:text-white pt-2">
                                         <p>
                                         Personal Care

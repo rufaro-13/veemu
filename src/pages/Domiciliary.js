@@ -27,8 +27,9 @@ function Domiciliary() {
                             <div className='ml-6'><ul class="list-disc ">
                              <li><a class='' href='#domiciliary'><u>Domiciliary Care</u></a></li>
                             <li><a href='#respite'><u>Respite Care</u></a> </li>
-                            <li><a href='#supported'><u>Live-in Care</u></a></li>
-                            <li><a href='#palliative'><u>Extra Care</u></a></li>
+                            <li><Link to="/shared" ><u>Shared Lives</u></Link></li>
+                            <li><Link to="/live" ><u>Live In Care</u></Link></li>
+                            <li><Link to="/extra" ><u>Extra Care</u></Link></li>
                             
                                 
                             </ul></div>

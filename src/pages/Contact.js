@@ -139,6 +139,31 @@ function Contact() {
                           </div>
 
                     </div>
+
+
+                    <div class="max-w-fit  sm:82 rounded-lg  sm:items-center sm:justify-center py-4  lg:ml-48 mt-8">
+
+                      <IconContext.Provider value={{ color: '#89cff0', size: '50px', padding:'5px 2px' }}>
+                        <a href="https://www.google.com/maps/place/Regus/@51.2968578,-0.8197451,17z"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
+                          <FaLocationDot class="sm:items-center sm:justify-center  my-6"/>
+                        </div></a>
+                      </IconContext.Provider>
+                      <div class="  sm:items-center sm:justify-center   mt-1">
+                        <p class=" text-1xl font-normal">
+                          <div>
+                            <span class="text-black text-2xl font-bold">
+                              <a href="https://www.google.com/maps/place/Regus/@51.2968578,-0.8197451,17z" 
+                                  className="block py-2  underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Visit Us</a></span></div>
+                                  VEEMU HealthCare Limited<br/>114 Centaur House<br/>
+                                  Ancells Business Park
+                                  Ancells Rd 
+                                  <br/>GU51 2UJ
+                        </p>
+                      </div>
+
+                     </div>
+
+
                 </div>
 
                 </center>

@@ -43,12 +43,23 @@ export default function NavbarWithCTAButton() {
         <Link to="/vacancy" className='text-fuchsia-950 font-bold md:text-lg'>
           Careers
         </Link>
-        <div className='text-fuchsia-950 font-bold md:text-lg'><Dropdown
+       
+
+        <div className='text-fuchsia-950 font-bold md:text-lg'>
+          <Link to="/services">
+          <Dropdown
+          inline
+          label="Services"
+          className='text-fuchsia-950 font-bold md:text-lg'
+        >
+        <Dropdown.Header className='bg-gray-200'>
+        <ul class="py-2 text-sm text-gray-700 dark:text-gray-400">
+        <div className='text-fuchsia-950 font-bold md:text-sm'><Dropdown
           inline
           label="Domiciliary"
           className='text-fuchsia-950 font-bold md:text-lg'
         >
-        <Dropdown.Header className='bg-gray-200'>
+        <Dropdown.Header className='bg-gray-200 '>
         <ul class="py-2 text-sm text-gray-700 dark:text-gray-400">
         <Link to="/social" className='text-fuchsia-950 font-bold md:text-sm hover:bg-blue-700 hover:text-white'>
           Social Inclusion
@@ -64,24 +75,19 @@ export default function NavbarWithCTAButton() {
           </Dropdown.Header>
           
         </Dropdown></div>
-
-        <div className='text-fuchsia-950 font-bold md:text-lg'>
-          <Link to="/services">
-          <Dropdown
-          inline
-          label="Services"
-          className='text-fuchsia-950 font-bold md:text-lg'
-        >
-        <Dropdown.Header className='bg-gray-200'>
-        <ul class="py-2 text-sm text-gray-700 dark:text-gray-400">
-        
-        <Link to="/extra" className='text-fuchsia-950 font-bold md:text-sm hover:bg-blue-700 hover:text-white'>
-          Extra Care
+        <Link to="/services" className='text-fuchsia-950 font-bold md:text-sm hover:bg-blue-700 hover:text-white'>
+          Respite
         </Link><br/>
+    
         <Link to="/shared" className='text-fuchsia-950 font-bold md:text-sm hover:bg-blue-700 hover:text-white'>
           Shared Living
         </Link><br/>
-        
+        <Link to="/live" className='text-fuchsia-950 font-bold md:text-sm hover:bg-blue-700 hover:text-white'>
+          Live In Care
+        </Link><br/>
+        <Link to="/extra" className='text-fuchsia-950 font-bold md:text-sm hover:bg-blue-700 hover:text-white'>
+          Extra Care
+        </Link><br/>
                 </ul>
           </Dropdown.Header>
           

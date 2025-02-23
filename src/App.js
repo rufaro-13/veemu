@@ -12,6 +12,7 @@ import Social from './pages/Social';
 import Extra from './pages/Extra';
 import Shared from './pages/Shared';
 import Vacancy from './pages/Vacancy';
+import Live from './pages/Live';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route forceRefresh={true} path='/extra' element= {<Extra/>}></Route>
         <Route forceRefresh={true} path='/shared' element= {<Shared/>}></Route>
         <Route forceRefresh={true} path='/vacancy' element= {<Vacancy/>}></Route>
+        <Route forceRefresh={true} path='/live' element= {<Live/>}></Route>
 
 
         </Route>
